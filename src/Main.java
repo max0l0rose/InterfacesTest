@@ -5,6 +5,9 @@ public class Main {
         IMovable iMovable2 = IMovable.INSTANCE;
         assert(iMovable == iMovable2);
         //iMovable.func(); // ERROR
+
+        ICar.statMethod();
+
         int a = 1;
     }
 }

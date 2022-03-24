@@ -4,10 +4,11 @@ public interface ICar {
     default void defMethod() {
     }
 
-    private void defMethod2() {
+    private void defPrivMethod() {
     }
 
     static void statMethod() {
+        statPrivMethod();
     }
 
     private static void statPrivMethod() {

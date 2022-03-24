@@ -1,4 +1,6 @@
+
 public interface IMovable {
+
     final static int interfaceStatA = 1; // _final_ static !!
 
     IMovable INSTANCE = new IMovable() {
